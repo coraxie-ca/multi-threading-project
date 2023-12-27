@@ -1,4 +1,5 @@
 #include "defs.h"
+// provided base code
 
 /*
     Returns a pseudo randomly generated number, in the range min to (max - 1), inclusively
