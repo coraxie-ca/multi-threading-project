@@ -1,6 +1,10 @@
 #include "defs.h"
 
 /*
+  Function: initEvidenceList
+  Purpose:  initialize the evidence list by setting the head and tail to NULL, init mutex
+  Params:  
+    Input/Output: EvidenceListType *evList - the evidence list to be initialized
 */
 void initEvidenceList(EvidenceListType *evList) {
     evList->head = NULL;
@@ -9,6 +13,11 @@ void initEvidenceList(EvidenceListType *evList) {
 }
 
 /*
+  Function: addEvidence
+  Purpose:  append an evidence to the end of the evidence list
+  Params:  
+    Input/Output:   EvidenceListType *evList - the evidence list to append to
+    Input:          EvidenceType *ev - the evidence to append
 */
 void addEvidence(EvidenceType *ev, EvidenceListType *evList) {
     EvidenceNodeType *evNode;
@@ -26,6 +35,10 @@ void addEvidence(EvidenceType *ev, EvidenceListType *evList) {
 }
 
 /*
+  Function: cleanupEvidenceList
+  Purpose:  deallocate momery of all the nodes in the evidence list
+  Params:  
+    Input/Output: EvidenceListType *evList - the evidence list to free nodes in
 */
 void cleanupEvidenceList(EvidenceListType *evList) {
     EvidenceNodeType *curNode;
