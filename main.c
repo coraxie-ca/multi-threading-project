@@ -22,6 +22,7 @@ int main()
         initHunter(names[i], &hunters[i], &house, i);
     }
 
+    // test
     // EvidenceType randomEv = (EvidenceType) EMF;
     // addEvidence(&randomEv, &house.rooms.head->data->evidenceList);
     // hunterCollect(hunters[0], &house);
@@ -59,7 +60,7 @@ int main()
     pthread_join(threadHunter3, NULL);
     pthread_join(threadHunter4, NULL);
 
-    // finalize results
+    // finalize results, incomplete
     char ghostName[MAX_STR];
     ghostToString(ghost->ghostClass, ghostName);
 
