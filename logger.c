@@ -1,4 +1,5 @@
 #include "defs.h"
+// provided base code
 
 /* 
     Logs the hunter's name and starting equipment.
