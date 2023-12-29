@@ -9,13 +9,13 @@ A functioning, multi-threaded simulation, that contains one ghost thread and fou
 README.md :     informations of the program and how to run the program
 defs.h :        the header file, contains forward declarations, type definitions, error codes and other definitions
 main.c :        the source file, contains main()
-house.c :       the source file, contains initBuilding(), cleanupBuilding(), loadBuildingData(), to initialize a building structure that contains a list of every ghost and an array every room, like a big database, to clean up all the data, and load the data
-room.c :        the source file, contains all functions related to Room structure and RoomArray structure
-ghost.c :       the source file, contains all functions related to Ghost structure and GhostList structure
-hunter.c :      
-evidence.c :     
-logger.c :      
-utils.c :       
+house.c :       the source file, contains initHouse(), cleanupHouse(), and populateRooms()
+room.c :        the source file, contains all functions related to room entities
+ghost.c :       the source file, contains all functions related to the ghost entity
+hunter.c :      the source file, contains all functions related to hunter entities
+evidence.c :    the source file, contains all functions related to evidence entities
+logger.c :      provided logging file, prints messages of threads actions
+utils.c :       provided file, contains some random functions and evidenceToString()
 Makefile :      for compilation and linking
 
 # Instructions for compiling the program:
@@ -25,3 +25,4 @@ make
 ./fp
 
 # Instructions for how to use the program once it is running:
+NA
