@@ -1,9 +1,9 @@
 # multi-threading-project
-The coursework of a multi-threading project in C
+A multi-threading project in C
 Game: “Hunters Track Evidences and Catch Ghosts”
 
 # description of the program’s purpose:
-A functioning, multi-threaded simulation, that contains one ghost thread and four hunter threads. These five entities hang out in the connected rooms in a house. The only ghost could leave evidence in a room, and move to a random, connected room, only if a hunter is NOT in the room. Hunters could collect evidence, and move to a random, connected room. When ghost's boredom timer reaches BOREDOM_MAX, it is too bored, and ends its haunting. When hunters feel too bored or too scared, they are removed from the simulation.
+A functioning, multi-threaded simulation, that contains one ghost thread and four hunter threads. These five entities hang out in the connected rooms in a house. The only ghost could leave evidence in a room, and move to a random, connected room, only if a hunter is NOT in the room. Hunters could collect evidence, and move to a random, connected room. When ghost's boredom timer reaches BOREDOM_MAX, it will end its haunting. When hunters' boredom timer or fearness timer reach the max, they will be removed from the simulation.
 
 # list of files included in the project and their purposes:
 README.md :     informations of the program and how to run the program
