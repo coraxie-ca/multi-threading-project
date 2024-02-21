@@ -6,8 +6,7 @@ Game: “Hunters Track Evidences and Catch Ghosts”
 A functioning, multi-threaded simulation, that contains one ghost thread and four hunter threads. These five entities hang out in the connected rooms in a house. The only ghost could leave evidence in a room, and move to a random, connected room, only if a hunter is NOT in the room. Hunters could collect evidence, and move to a random, connected room. When ghost's boredom timer reaches BOREDOM_MAX, it will end its haunting. When hunters' boredom timer or fearness timer reach the max, they will be removed from the simulation.
 
 # list of files included in the project and their purposes:
-README.md :     informations of the program and how to run the program
-
+README.md :     informations of the program and how to run the program \n
 defs.h :        the header file, contains forward declarations, type definitions, error codes and other definitions
 main.c :        the source file, contains main()
 house.c :       the source file, contains initHouse(), cleanupHouse(), and populateRooms()
