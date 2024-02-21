@@ -7,6 +7,7 @@ A functioning, multi-threaded simulation, that contains one ghost thread and fou
 
 # list of files included in the project and their purposes:
 README.md :     informations of the program and how to run the program
+
 defs.h :        the header file, contains forward declarations, type definitions, error codes and other definitions
 main.c :        the source file, contains main()
 house.c :       the source file, contains initHouse(), cleanupHouse(), and populateRooms()
